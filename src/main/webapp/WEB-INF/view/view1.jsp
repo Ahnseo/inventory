@@ -6,7 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Insert title here</title>
+<title>MY_INVENTORY</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -22,7 +22,7 @@
 				<tr>
 					<th scope="col">#</th>
 					<th scope="col">상품명</th>
-					<th scope="col">가격</th>
+					<th scope="col">가격(원)</th>
 					<th scope="col">진열대</th>
 					<th scope="col">진열대 서랍1</th>
 					<th scope="col">진열대 서랍2</th>
