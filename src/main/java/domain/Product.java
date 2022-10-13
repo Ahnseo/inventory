@@ -1,25 +1,33 @@
 package domain;
 
 public class Product {
+	private String productId;
 	private String productName;
-	private int price;
+	private double price;
 	private int mainStorage;
 	private int subStorage1;
 	private int subStorage2;
 	private int posStorage;
 	private int drinkStorage;
 	private int sum;
-
+	
+	
+	public String getProductId() {
+		return productId;
+	}
+	public void setProductId(String productId) {
+		this.productId = productId;
+	}
 	public String getProductName() {
 		return productName;
 	}
 	public void setProductName(String productName) {
 		this.productName = productName;
 	}
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	public int getMainStorage() {
@@ -58,6 +66,11 @@ public class Product {
 	public void setSum(int sum) {
 		this.sum = sum;
 	}
+	
+	
+	
+
+	
 	
 	
 }

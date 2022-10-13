@@ -61,8 +61,8 @@ public class ProductLogic extends HttpServlet {
 			// 어떻게 비지니스 로직을 계획할까? 상품명, 가격을 얻어와서 조회하기.
 			while (rs.next()) { // rs.next() 사용
 				Product product = new Product();
-				product.setProductName(rs.getString(1));
-				product.setPrice(rs.getInt(2));
+				product.setProductName(rs.getString("ProductName"));
+				product.setPrice(rs.getDouble("Price")); //getDouble
 
 				list.add(product);
 
