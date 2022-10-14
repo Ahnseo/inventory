@@ -2,8 +2,11 @@ package domain;
 
 public class Product {
 	private String productId;
+	private String productBrand;
 	private String productName;
-	private double price;
+	private String BoxUnit;
+	private String BoxEA;
+	
 	private int mainStorage;
 	private int subStorage1;
 	private int subStorage2;
@@ -11,12 +14,39 @@ public class Product {
 	private int drinkStorage;
 	private int sum;
 	
+	private double price;
+	private double multiplication;
 	
+	
+	public String getBoxUnit() {
+		return BoxUnit;
+	}
+	public void setBoxUnit(String boxUnit) {
+		BoxUnit = boxUnit;
+	}
+	public String getBoxEA() {
+		return BoxEA;
+	}
+	public void setBoxEA(String boxEA) {
+		BoxEA = boxEA;
+	}
+	public double getMultiplication() {
+		return multiplication;
+	}
+	public void setMultiplication(double multiplication) {
+		this.multiplication = multiplication;
+	}
 	public String getProductId() {
 		return productId;
 	}
 	public void setProductId(String productId) {
 		this.productId = productId;
+	}
+	public String getProductBrand() {
+		return productBrand;
+	}
+	public void setProductBrand(String productBrand) {
+		this.productBrand = productBrand;
 	}
 	public String getProductName() {
 		return productName;
